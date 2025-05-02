@@ -1,3 +1,10 @@
+Hello! I am going to try and make a portfolio website.
+
+To do this, I am thinking of using React, Next.js, Javascript, TypeScript, Tailwind, eslint, jQuery, and GitHub Pages to deploy it.
+
+wish me luck!!!
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
