@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import Logo from "./logo.png";
+import './globals.css';
 import NavBar from './NavBar';
 import Intro from './Intro';
 
