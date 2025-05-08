@@ -1,8 +1,8 @@
 import './globals.css';
-import NavBar from './NavBar';
-import Intro from './Intro';
-import AboutMe from './AboutMe';
-import Education from './Education';
+import NavBar from './Components/NavBar';
+import Intro from './Components/Intro';
+import AboutMe from './Components/AboutMe';
+import Education from './Components/Education';
 
 
 
