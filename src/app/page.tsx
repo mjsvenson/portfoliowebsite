@@ -2,6 +2,8 @@ import './globals.css';
 import NavBar from './NavBar';
 import Intro from './Intro';
 import AboutMe from './AboutMe';
+import Education from './Education';
+
 
 
 export default function Home() {
@@ -11,6 +13,7 @@ export default function Home() {
      <NavBar />
      <Intro />
      <AboutMe />
+     <Education />
     </div>
   );
 }
