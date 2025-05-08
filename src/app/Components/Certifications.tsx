@@ -1,4 +1,4 @@
-export default function Education() {
+export default function Certifications() {
     return (
     <div id ="EducationSection" className="bg-black border-white border-2 mx-30 my-30 h-100">
         <div id="EducationContainer" className="p-30">
