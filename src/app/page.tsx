@@ -7,19 +7,27 @@ import WorkExperience from './Components/WorkExperience'
 import Projects from './Components/Projects'
 import Certifications from './Components/Certifications'
 import Footer from './Components/Footer'
+import { Anton } from 'next/font/google'
+
+const anton = Anton({
+  weight: '400',
+  subsets: ['latin'],
+});
 
 export default function Home() {
 
   return (
-    <div id="WebPage">
-     <NavBar />
-     <Intro />
-     <AboutMe />
-     <Education />
-     <WorkExperience />
-     <Projects />
-     <Certifications />
-     <Footer />
-    </div>
+    <html>
+     <div id="WebPage" lang="en" className={anton.className}>
+      <NavBar />
+      <Intro />
+      <AboutMe />
+      <Education />
+      <WorkExperience />
+      <Projects />
+      <Certifications />
+      <Footer />
+     </div>
+    </html>
   );
 }

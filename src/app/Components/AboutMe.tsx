@@ -4,6 +4,8 @@ import Minecraft from "./Images/minecraft.png";
 import JavaLogo from "./Images/Java-Logo.png";
 import BigThree from "./Images/big3web.jpg"
 
+// Change text font
+
 export default function AboutMe() {
 
   return (
@@ -15,8 +17,8 @@ export default function AboutMe() {
             <div id="Big3Images" className="absolute my-10 ml-290">
               <Image src={BigThree} alt="HTML/CSS/JavaScript image here" width={200} height={100} className='float-left border-white border-2'/>
             </div>
-            <div id="AboutMeContainer" className="mt-30 mx-30">
-                <div id="AboutMeHeader" className="text-white m-auto text-center p-5">About me</div>
+            <div id="AboutMeContainer" className="mt-25 mx-30">
+                <div id="AboutMeHeader" className="text-white m-auto text-center text-[56px]">About me</div>
                 <div id="AboutMeText" className="text-white m-auto text-center">
                   Hello there! My name is Matthew Svenson and this is my Portfolio website! I was born in Melrose Massachusetts on April 4th 2002. 
                   Ever since middle school I have had a passion for Computer Science, during any downtime I had in school I would mess around with HTML learning
