@@ -17,7 +17,6 @@ const anton = Anton({
 export default function Home() {
 
   return (
-    <html>
      <div id="WebPage" lang="en" className={anton.className}>
       <NavBar />
       <Intro />
@@ -28,6 +27,5 @@ export default function Home() {
       <Certifications />
       <Footer />
      </div>
-    </html>
   );
 }
