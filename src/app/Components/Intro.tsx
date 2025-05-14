@@ -3,12 +3,7 @@ export default function Intro() {
     return (
      <div id="Intro">
        {/* Video Background */}
-       <video
-          autoPlay
-          muted
-          loop
-          className=""
-        >
+       <video autoPlay muted loop className="">
           <source src="/Background.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
