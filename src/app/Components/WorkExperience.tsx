@@ -21,7 +21,7 @@ export default function WorkExperience() {
                 ensuring alignment with project goals.</li>
             </ul>
             </div>
-            <div id="WorkLength" className="text-white float-left mx-26 text-[28px]">November 2024 - Present</div>
+            <div id="WorkLength" className="text-white float-left mx-15 text-[28px]">November 2024 - Present</div>
         </div>
 
         <div id="WorkExperienceContainerJobsJr" className="mx-20 mb-10 float-left">
@@ -34,7 +34,7 @@ export default function WorkExperience() {
                 <li>Delivered clean, well-documented code, ensuring easy maintenance and scalability for future team use.</li>
             </ul>
             </div>
-            <div id="WorkLength" className="text-white float-left mx-20 text-[28px]">June 2024 - September 2024</div>
+            <div id="WorkLength" className="text-white float-left mx-15 text-[28px]">June 2024 - September 2024</div>
         </div>
 
         <div id="WorkExperienceContainerUML" className="mx-20 mb-10 float-left">
@@ -48,7 +48,7 @@ export default function WorkExperience() {
                 <li>Debugged student code and gave feedback on 12 C++ assignments, using unit tests and code optimization.</li>
             </ul>
             </div>
-            <div id="WorkLength" className="text-white float-left mx-20 text-[28px]">September 2023 - January 2024</div>
+            <div id="WorkLength" className="text-white float-left mx-15 text-[28px]">September 2023 - January 2024</div>
         </div>
     </div>
     );
