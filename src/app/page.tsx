@@ -24,7 +24,6 @@ export default function Home() {
       <Education />
       <WorkExperience />
       <Projects />
-      <Certifications />
       <Footer />
      </div>
   );
