@@ -39,7 +39,7 @@ export default function WorkExperience() {
 
         <div id="WorkExperienceContainerUML" className="mx-20 mb-10 float-left">
             <Image src={UMLLogoJob} alt="UMLJobLogo Here" width={150} className="float-left bg-white"/>
-            <div id="WorkTitle" className="text-white float-left mx-11 text-[28px]">Professor's Assistant</div>
+            <div id="WorkTitle" className="text-white float-left mx-11 text-[28px]">Professors Assistant</div>
             <div id="WorkResponsibilities" className="text-white float-left w-1/3">
             <ul className="list-inside list-disc">
                 <li>Mentored 50+ students on Data Structure and Algorithms projects through office hours to ensure compliance
