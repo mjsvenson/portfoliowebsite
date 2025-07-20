@@ -13,7 +13,7 @@ export default function Projects() {
             <div id="imagecontainer" className="mx-36 my-10"><Image src={TabularUI} height={400} alt="Tabular UI Here" /></div>
             <div id="cardTitle" className="text-white float-left mx-45 text-[44px]">Tabular</div>
             </a>
-            <div id="cardDescription" className='mx-10'>I worked as a back-end engineer Tabular! Tabular is a Chrome Extension
+            <div id="cardDescription" className='mx-10'>I worked as a back-end engineer on Tabular! Tabular is a Chrome Extension
                  that uses the Chrome API to organize tabs into a tree structure, reducing search time for users with 100+ tabs.
                  <br />
                  <br />
