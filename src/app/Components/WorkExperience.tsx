@@ -10,7 +10,7 @@ export default function WorkExperience() {
         <div id="WorkExperienceHeader" className="text-white m-auto text-center my-10 text-[56px]">Work Experience</div>
         
         <div id="WorkExperienceContainerNECC" className="mx-20 mb-10 float-left">
-            <Image src={NECCLogo} alt="NECC Logo Here" width={150} className="float-left"/>
+            <a href='https://www.necc.mass.edu/' target='_blank'><Image src={NECCLogo} alt="NECC Logo Here" width={150} className="float-left"/></a>
             <div id="WorkTitle" className="text-white float-left mx-10 text-[28px]">Software Engineer Intern</div>
             <div id="WorkResponsibilities" className="text-white float-left w-1/3">
             <ul className="list-inside list-disc">
@@ -25,7 +25,7 @@ export default function WorkExperience() {
         </div>
 
         <div id="WorkExperienceContainerJobsJr" className="mx-20 mb-10 float-left">
-            <Image src={JobsJrLogo} alt="JobsJr Logo Here" width={150} className="float-left"/>
+            <a href='https://www.linkedin.com/company/jobs-jr/posts/?feedView=all' target='_blank'><Image src={JobsJrLogo} alt="JobsJr Logo Here" width={150} className="float-left"/></a>
             <div id="WorkTitle" className="text-white float-left mx-10 text-[28px]">Software Engineer Intern</div>
             <div id="WorkResponsibilities" className="text-white float-left w-1/3">
             <ul className="list-inside list-disc">
@@ -38,7 +38,7 @@ export default function WorkExperience() {
         </div>
 
         <div id="WorkExperienceContainerUML" className="mx-20 mb-10 float-left">
-            <Image src={UMLLogoJob} alt="UMLJobLogo Here" width={150} className="float-left bg-white"/>
+            <a href='https://www.uml.edu/' target="_blank"><Image src={UMLLogoJob} alt="UMLJobLogo Here" width={150} className="float-left bg-white"/></a>
             <div id="WorkTitle" className="text-white float-left mx-11 text-[28px]">Professors Assistant</div>
             <div id="WorkResponsibilities" className="text-white float-left w-1/3">
             <ul className="list-inside list-disc">
