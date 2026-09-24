@@ -2,6 +2,8 @@ import Image, { StaticImageData } from "next/image";
 import NECCLogo from "./Images/necc-logo-sq.png"
 import JobsJrLogo from "./Images/jobsjr.jpg"
 import UMLLogoJob from "./Images/UMLLogoJob.png"
+import GeisingerLogo from "./Images/geisinger-logo.png"
+
 
 function WorkCard({ logo, href, alt, title, bullets, length, whiteBg }: {
   logo: StaticImageData; href: string; alt: string; title: string; bullets: string[]; length: string; whiteBg?: boolean;
@@ -23,17 +25,27 @@ function WorkCard({ logo, href, alt, title, bullets, length, whiteBg }: {
   );
 }
 
+
 export default function WorkExperience() {
     return (
     <div id="WorkSection" className="bg-black border-white border-2 mx-4 sm:mx-8 md:mx-16 lg:mx-30 my-10 md:my-30 px-4 sm:px-8 py-8">
         <div id="WorkExperienceHeader" className="text-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-[56px] mb-10">Work Experience</div>
 
+
+        <WorkCard
+          logo={GeisingerLogo} href="https://www.geisinger.org/" alt="Geisinger Logo Here"
+          title="Application Systems Administrator" length="August 2025 - Present" whiteBg
+          bullets={[
+            "Administer production SQL Server environments, troubleshooting data and integration issues and managing access controls.",
+            "Support AWS migration efforts involving EC2, storage, and IOPS tuning, plus release deployments and documentation."
+          ]}
+        />
         <WorkCard
           logo={NECCLogo} href="https://www.necc.mass.edu/" alt="NECC Logo Here"
-          title="Software Engineer Intern" length="November 2024 - Present"
+          title="Software Engineer Intern" length="November 2024 - June 2025"
           bullets={[
-            "In this position, I am engineering a format-dynamic employee information document using JavaScript to validate field entries and SQL to autofill participant information accurately.",
-            "I am also collaborating with cross-functional teams within the college to design, review, and refine document layouts, ensuring alignment with project goals."
+            "Engineered a format-dynamic employee information document using JavaScript to validate field entries and SQL to autofill participant information accurately.",
+            "Collaborated with cross-functional teams within the college to design, review, and refine document layouts, ensuring alignment with project goals."
           ]}
         />
         <WorkCard
