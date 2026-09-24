@@ -2,6 +2,8 @@
 
 A responsive, single-page developer portfolio built with Next.js and TypeScript. The site introduces Matthew Svenson, presents his education and software engineering experience, and highlights selected projects with direct links to their source repositories.
 
+**Live demo:** [matthewsvensonportfoliowebsite.vercel.app](https://matthewsvensonportfoliowebsite.vercel.app/)
+
 ## Highlights
 
 - **Responsive navigation**: Fixed desktop navigation and a mobile menu provide quick access to each section.
